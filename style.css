@@ -1,0 +1,94 @@
+
+*{
+	margin:10;
+	padding:10;
+	box-sizing: border-box;
+	font_size:16px;
+}
+
+	
+
+iframe {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+}
+body {
+ font-family: "Goudy Bookletter 1911", serif;
+}
+body {
+      background-color: orange;
+     }
+header {
+       background-color: darkolivegreen;
+		margin:10;
+		padding:100;
+       }
+/* Note that if we want a number of different elements to have the same style, we just comma separate them. */
+header, footer {
+	 text-align:center;
+	fontsize:60px;
+              
+	max-width: 1800px
+               }
+h1 {
+	font-size:80px;
+	color: #000000;
+	font-family: "Playfair Display", serif;
+	text-align:left;}
+h2 {
+	font-size:30px;
+	font-family: "Playfair Display", serif;
+	text-transform: uppercase;
+}
+
+h1,h2,p,li 
+
+.playfair-display- {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.goudy-bookletter-1911-regular {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.item {
+	background-color: #D2B48C;
+	padding:1%;
+	margin: 1%;
+	margin-bottom:20px;
+	margin-top: 20px;
+	border-radius:10px;
+	
+}
+.item li 
+blockquote {
+	text-transform: uppercase;
+	font-style: italic;
+}
+nav {
+	text-align:center;
+}
+nav li {
+	display:inline-block;
+}
+nav a {
+	background-color: beige;
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 5px
+}
+nav a:hover {
+	background: #704343;
+}
+body {
+	background-color: beige;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
